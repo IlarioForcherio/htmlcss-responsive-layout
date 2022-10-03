@@ -203,11 +203,7 @@ nav{
     
 }
 
-.nav-cnt-100{
-    width: 100%;
-    margin: 0 auto;
-    
-}
+
 .nav-menu a{
     padding: 0px 20px;
     color:white;
@@ -222,32 +218,69 @@ nav{
 
 
 /* MAIN */
+/* SEC1 */
  
 .sec1{
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
-    justify-content: space-between;
+    padding-top: 30px ;
+    align-items: center;
+    justify-content: center;
 }
 
-.col1{
-   flex-basis: 65.6%; 
-   background-color:#b5dcff;
-   
-}
-.col2{
-    flex-basis:32.3%;
-    background-color:#b5dcff;
-    height: 100px;
-    
-}
+ 
+
 .col1,.col2{
+    width: 90%;
+    background-color:#b5dcff;
     border-radius: 20px;
-    margin: 0px;
     border: 2px solid black;
-    margin-bottom: 10px;
+    margin: 10px 0px; 
+    padding: 0px;  
+}
+
+.col1 h2{
+    color: #1d92fd;
+    padding: 10px 0px;
+}
+
+.col1 img{
+    width: 80%;
+    
+   
     
 }
+
+.col1 p {
+    font-size: 1.5rem;
+     line-height: 3rem;
+}
+
+.col1 li{
+    padding: 30px 40px;
+    
+    
+}
+#img-cnt{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-apple-whole{
+    padding-right: 15px;
+}
+
+.blue-btn-smooth{
+    background-color: #0c84fd;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding: 10px 60px;
+   
+
+}
+
+
 
 
 
@@ -260,7 +293,43 @@ nav{
 /* TABLET */
 @media screen and ( min-width: 768px) {
 
+    .sec1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 30px ;
+        justify-content: space-around;
+    }
+    .col1{
+        flex-basis: 63.6%; 
+        background-color:#b5dcff;
+        
+     }
+     .col2{
+         flex-basis:30.3%;
+         background-color:#b5dcff;
+            
+     }
+     .col1,.col2{
+        border-radius: 20px;
+        margin: 0px;
+        border: 2px solid black;
+        margin: 10px;
+        
+        
+    }
+
+    #img-cnt{
+        display: flex;
+        justify-content: start;
+    }
+
+
 }
+
+/* main */
+
+
 
 /* DESKTOP */
 
@@ -276,17 +345,40 @@ nav{
         display:inline;
     }
     .container-100{
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
         
     }
 
     /* main */
 
+
     .sec1{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-top: 30px ;
+        justify-content: space-around;
+    }
+    
+    .col1{
+       flex-basis: 63.6%; 
+       background-color:#b5dcff;
+       
+    }
+    .col2{
+        flex-basis:30.3%;
+        background-color:#b5dcff;
+        
+        
+    }
+    .col1,.col2{
+        border-radius: 20px;
+        margin: 0px;
+        border: 2px solid black;
+        margin: 10px;
+       
+        
     }
 
 
