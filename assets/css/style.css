@@ -1,0 +1,195 @@
+
+/* UTILITY */
+
+
+/* FORMATTAZIONE PAGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* ul{
+list-style-type: none;    
+}
+
+* li{
+
+    list-style: none;
+}
+
+
+/* /* BOX-VARI  */
+
+ /* -ATTENZIONE!!-
+/* ALTEZZE FISSE    Togliere le altezze (e bordi) */
+
+.box-100-prova{
+    width: 100%;
+    border: 2px solid black;
+    height: 300px;
+    margin-top: 30px;
+}
+.box-100{
+    width:100%;
+    border: 0.5px solid black ;
+}
+
+
+
+/* CENTRATURE-CONTAINER*/
+
+.container-100{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.container-50{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.container-40{
+    width: 40%;
+    margin: 0 auto;
+    
+   
+}
+
+/* POSITION */
+
+.relative{
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+}
+
+
+
+
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-jc-between{
+    display: flex;
+    justify-content:space-between;
+}
+.flex-jc-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* COLONNE-FLEXATE */
+
+.column-cnt-jc-between{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.column-cnt{
+    display: flex;
+    
+}
+
+.col{
+    width:calc(100% / 3);
+    border: 2px solid black;
+    
+}
+
+/* COLONNE CON SPAZIO(GLUTTER) */
+.column-cnt-glutter{
+    display:flex;
+    justify-content: space-between;
+
+}
+.col-glutter{
+    width:32%;
+    border: 2px solid black;
+    height: 300px;
+}
+
+/* BOTTONI VARI */
+.blue-btn{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    display:inline-block;
+}
+
+.white-btn{
+    border:1px solid black;
+    text-decoration: none;
+    text-align:center;
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+    display: inline-block;
+    
+
+}
+
+/* SEZIONE DI QUADRATI */
+
+.box-col{
+    display:flex;
+    width:calc(100% / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.square{
+    width:50%;
+    height: 50%;
+   
+    
+}
+
+
+
+/* INIZIO PROGETTO */
+
+nav{
+    background-color: #0c84fd;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#nav-logo img{
+    width: 70%;
+
+}
+#nav-menu i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
