@@ -334,7 +334,7 @@ padding: 20px 0px;
 .sec5 h2,.sec5 p, .card-img {
     padding: 2rem ;
 }
-.sec5 p{
+.sec5 p, .sec6 p{
     line-height: 2rem;
     
 }
@@ -360,6 +360,37 @@ padding: 20px 0px;
     font-size: 1.8rem;
     color: #9792e4;
 }
+
+/* SECTION6 */
+
+.sec6{
+    text-align: center;
+    padding: 2rem;
+    background-color: #9792e4;
+    margin-top: 4rem;
+}
+.sec6 li{
+    padding: 2rem 0;
+    color: white;
+}
+.sec6 h3{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.sec6 h2{
+ color: #fdc160;
+ font-size: 4rem;
+
+}
+.white-btn{
+    background-color: white;
+    color:#9792e4;
+    font-size: 0.8rem;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+
 
 
 
