@@ -164,32 +164,29 @@ nav{
     padding: 2rem;
 }
 
+.col2 i,.col3 i{
+    color: #0c84fd;
+}
+
 .col2 i{
     font-size: 5rem;
-    color: #0c84fd;
 }
 
 .col2 h2{
     padding: 0.5rem;
 }
 
-.col2 p{
+.col2 p,.col3 p{
     line-height: 2rem;
     padding: 0.5rem;
 }
 
 .col3 i{
     font-size: 4rem;
-    color: #0c84fd;
-}
-
-
-.col3 p{
-    line-height: 2rem;
-    padding: 0.5rem;
 }
 
 /* SECTION2 */
+
 .sec2{
     flex-direction: column;
     justify-content: center;
@@ -262,9 +259,13 @@ padding: 20px 0px;
     padding: 30px 20px;
 
 }
-.card p{
-  line-height:1.5rem;
+.card p, .card2 p{
+  line-height:2rem;
+  
 }
+
+
+
 #signature{
     font-weight: bold;
     padding-top: 30px;
@@ -311,9 +312,7 @@ padding: 20px 0px;
     font-size: 3rem;
     padding: 0 0 ;
 }
-.card2 p{
-    line-height: 1.5rem;
-}
+
 .card2 li{
     padding: 1rem;
 }
@@ -390,7 +389,25 @@ padding: 20px 0px;
     padding: 10px 30px;
 }
 
+/* FOOTER */
 
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+footer div{
+    padding: 3rem 2rem;
+}
+
+footer a{
+    color: #9792e4;
+    
+}
+
+#careers{
+    font-size: 0.8rem;
+}
 
 
 
@@ -495,9 +512,9 @@ padding: 20px 0px;
 
 }
 
-@media all and ( min-width: 768px) and (max-width:989px){
+@media all and (max-width:989px){
     .col2{
-        padding-bottom: 10rem;
+        padding-bottom: 25rem;
         
     }
 }
@@ -569,6 +586,12 @@ padding: 20px 0px;
     }
 
     /* SECTION5 */
+    /* SECTION6 */
+.sec6 ul, .foot-ctn{
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 
 
