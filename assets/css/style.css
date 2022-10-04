@@ -263,7 +263,7 @@ padding: 20px 0px;
 
 }
 .card p{
-  line-height:30px;
+  line-height:1.5rem;
 }
 #signature{
     font-weight: bold;
@@ -271,7 +271,7 @@ padding: 20px 0px;
 }
 
 
-.card-img img{
+.card-img img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -317,11 +317,48 @@ padding: 20px 0px;
 .card2 li{
     padding: 1rem;
 }
-#purple-btn{
+.purple-btn{
     background-color: #9792e4;
     color: white;
     border-radius: 1.5rem;
     padding: 0.5rem 2rem;
+}
+
+/* SECTION5 */
+
+.sec5 img{
+    width: 150px;
+    height: 150px;
+    
+}
+.sec5 h2,.sec5 p, .card-img {
+    padding: 2rem ;
+}
+.sec5 p{
+    line-height: 2rem;
+    
+}
+.sec5 h2{
+    color: #9792e4;
+    font-size: 2rem;
+}
+#linkedin{
+    color: #9792e4;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.sec5 a {
+    margin-left: 2rem;
+}
+.card-img{
+    position: relative;
+}
+.fa-quote-left{
+    position: absolute;
+    left: 9.5rem;
+    top: 3rem;
+    font-size: 1.8rem;
+    color: #9792e4;
 }
 
 
@@ -395,6 +432,7 @@ padding: 20px 0px;
     #signature{
         padding-left: 30px;
     }
+    
     /* SECTION4 */
     .card-cnt{
     
@@ -412,7 +450,15 @@ padding: 20px 0px;
     .card2 h2{
         display: block;
     }
+    
     /* SECTION5 */
+
+    .sec5{
+        display: flex;
+    }
+    .sec5 h2{
+        font-size: 3rem;
+    }
    
  
 
@@ -490,6 +536,10 @@ padding: 20px 0px;
     flex-basis:calc(33.33% - 2rem);
     margin-bottom:10px;
     }
+
+    /* SECTION5 */
+
+
 
 
 
