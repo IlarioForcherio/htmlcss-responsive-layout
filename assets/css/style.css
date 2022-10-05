@@ -195,11 +195,9 @@ nav{
     padding: 20px;
 }
 
-
-#sec2-text{
-    
-    padding: 30px 0px;
-    color: white;
+.sec2 p{
+    font-style: oblique;
+    font-weight: 150;
 }
 .sec2  img{
     width: 100%;
@@ -238,6 +236,10 @@ padding: 20px 0px;
 
 /* SECTION3 */
 
+
+.sec3, .sec4 {
+    padding-bottom: 7rem;
+}
 #sec3-text{
     text-align: center;
     padding: 50px;
@@ -282,7 +284,8 @@ padding: 20px 0px;
 /* SECTION4 */
 
 .sec4{
-    background-color: #9792e4;  
+    background-color: #9792e4; 
+    
 }
 .card-cnt{
     display: flex;
@@ -345,6 +348,7 @@ padding: 20px 0px;
     color: #9792e4;
     font-weight: bolder;
     font-size: 2rem;
+    line-height: 3rem;
 }
 .sec5 a {
     margin-left: 2rem;
